@@ -12,7 +12,9 @@ public class Jarra { //atributos
     // 1
     // 2
     // 3
+
     public void metodoComunitario(){
     // Comentario incluido para pruebas
     System.out.println("Aqui escribimos todos");
     }
+}
