@@ -10,7 +10,20 @@ public class Jarra { //atributos
     }
     // metodos
     // 1
-    // 2
+    public int capacidad(){
+        return this.capacidad;
+        }
+        public int cantidad(){
+        return this.cantidad;
+        }
+   
+     // 2
+     public void llena() {
+        this.cantidad=this.capacidad;
+        }
+    public void vacia() {
+        this.cantidad=0;
+        }
     // 3
     public void llenaDesde(Jarra j){
         while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
