@@ -38,5 +38,7 @@ public class Jarra { //atributos
     public void metodoComunitario(){
     // Comentario incluido para pruebas
     System.out.println("Alejandro Silva Rodríguez");
+    System.out.println("Teresa Vega Martínez");
+
     }
 }
